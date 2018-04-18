@@ -1,0 +1,49 @@
+
+{
+	"buildFiles" : 
+	[
+		"D:/collect/simple/RecyclerViewScrollView-master/MyApplication/app/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"D:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\collect\\simple\\RecyclerViewScrollView-master\\MyApplication\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target clean"
+	],
+	"libraries" : 
+	{
+		"effective-bitmap-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "effective-bitmap",
+			"buildCommand" : "D:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\collect\\simple\\RecyclerViewScrollView-master\\MyApplication\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target effective-bitmap",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=D:/Android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/android-ndk-r14b/platforms/android-15/arch-arm -Deffective_bitmap_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\jpeg  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/collect/simple/RecyclerViewScrollView-master/MyApplication/app/src/main/cpp/effective-bitmap.c",
+					"workingDirectory" : "D:/collect/simple/RecyclerViewScrollView-master/MyApplication/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "D:/collect/simple/RecyclerViewScrollView-master/MyApplication/app/build/intermediates/cmake/release/obj/armeabi/libeffective-bitmap.so",
+			"toolchain" : "2193103385"
+		},
+		"jpegbither-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "jpegbither",
+			"buildType" : "release",
+			"output" : "D:/collect/simple/RecyclerViewScrollView-master/MyApplication/app/libs/armeabi/libjpegbither.so",
+			"toolchain" : "2193103385"
+		}
+	},
+	"toolchains" : 
+	{
+		"2193103385" : 
+		{
+			"cCompilerExecutable" : "D:/Android/android-ndk-r14b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/Android/android-ndk-r14b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

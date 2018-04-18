@@ -1,0 +1,5 @@
+# ninja log v5
+1	416	0	CMakeFiles/effective-bitmap.dir/src/main/cpp/effective-bitmap.c.o	36fe94c6613fa7f7
+417	555	0	../../../../build/intermediates/cmake/debug/obj/armeabi/libeffective-bitmap.so	b07358ba0fa40508
+4	227	0	CMakeFiles/effective-bitmap.dir/src/main/cpp/effective-bitmap.c.o	36fe94c6613fa7f7
+227	304	0	../../../../build/intermediates/cmake/debug/obj/armeabi/libeffective-bitmap.so	b07358ba0fa40508
