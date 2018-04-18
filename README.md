@@ -1,4 +1,3 @@
-# JniCompressImage
 
 1、AndroidManifest.xml中授权限。因为要从手机读取图片，压缩后写回手机本地。
 
